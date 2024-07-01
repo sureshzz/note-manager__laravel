@@ -21,4 +21,4 @@ Route::put('/note/{id}',[NoteController::class,'update'])->name('note.update');
 Route::delete('/note/{id}',[NoteController::class,'destroy'])->name('note.destroy');
 
 
-Route::resource('note',NoteController::class);
+// Route::resource('note',NoteController::class);
